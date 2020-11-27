@@ -66,6 +66,12 @@ const seed = () => {
     lastName: "Schaub",
     password: "Libby",
   });
+  db.user.create({
+    email: "paige@hotmail.com",
+    firstName: "Paige",
+    lastName: "Sellen",
+    password: "Libby",
+  });
   db.pending.create({
     requestedId: 1,
     requesterId: 2,
